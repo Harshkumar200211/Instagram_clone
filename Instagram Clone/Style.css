@@ -1,0 +1,1908 @@
+@media only screen and (min-width: 350px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .main{
+        height: 843vh;
+        width: 100%;
+        background: black;
+        position: relative;
+    }
+    .main .nav{
+        height: 8vh;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: white; */
+    }
+    .main .nav .logo{
+        width: 60%;
+        display: flex;
+       margin-left: 8px;
+       gap: 10px;
+    }
+    .main .nav .logo h2{
+        color: white;
+    }
+    .main .nav .logo i{
+        font-size: 17px;
+        color: white;
+    }
+    .main .nav .logo .greater{
+        rotate: 180deg;
+        margin-bottom: 0.7vh;
+    }
+    .main .nav .logo .lock{
+        margin-top:0.9vh;
+    }
+    .main .nav .menubar{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main .nav .menubar i{
+        color: white;
+        font-size: 20px;
+    }
+    .main .nav .menubar .pluss{
+        font-size: 23px;
+        border-radius: 50%;
+    }
+    .main .nav .menubar .bar{
+        font-size: 23px;
+    }
+    .main .dpfollow {
+        height: 10vh;
+        margin-top: 9vh;
+        position: absolute;
+        /* background-color: yellow; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main .dpfollow .photo{
+        height: 100%;
+        width: 21%;
+        border-radius: 50%;
+        /* border: 2px solid red; */
+        margin-left: 20px;
+    }
+    .main .dpfollow .photo img{
+        height: 100%;
+        background-size: contain;
+        width: 100%;
+        border-radius: 50%;
+    }
+    .main .dpfollow .followers{
+        width: 65%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main .dpfollow .followers h2{
+        color: white;
+        font-weight: 300;
+    }
+    .main .dpfollow .followers p{
+        color: white;
+    }
+    .main .bio{
+        height: 30vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 20vh;
+        position: absolute;
+    }
+    .main .bio h4{
+        color: white;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .main .bio p{
+        color: white;
+        font-weight: 100;
+        margin-left: 10px;
+    }
+    .main .editbutton{
+        height: 5vh;
+        width: 100%;
+        margin-top: 39vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: yellow; */
+    }
+    .main .editbutton button{
+      width: 40%;
+      height: 80%;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 0px 2px;
+      align-items: center;
+      background-color: rgb(32, 26, 26);
+      color: white;
+      background: transparent;
+      box-shadow: 0px 0px 2px 1px gray;
+    }
+    .main .editbutton .plusss{
+        width: 10%;
+        height: 70%;
+    }
+    .main .editbutton .plusss i{
+        transform: scaleX(-1);
+    }
+    .main .highlight{
+        height: 10vh;
+      width: 100%;
+      /* background-color: green; */
+      margin-top: 44vh;
+      position: absolute;
+    }
+    .main .highlight .circle_body{
+        height: 100%;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main .highlight .circle_body .circle1, .circle2,
+    .circle3, .circle4, .circle5{
+        height: 85%;
+        width: 17%;
+        border-radius: 50%;
+        /* background-color: red; */
+        /* border: 2px solid black; */
+        box-shadow: 0px 0px 1px 1px gray;
+    }
+    .main .highlight .circle_body .circle1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .main .highlight .circle_body .circle1 h1{
+        font-size: 25px;
+        font-weight: 200;
+        color: white;
+    }
+    .main .hightlight_name{
+        height: 5vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 53.2vh;
+        position: absolute;
+    }
+    .main .hightlight_name p{
+        font-size: 20px;
+        margin-left: 20px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+    }
+    .main .post_pic_nav{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 56vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 62vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 117.1vh;
+    }
+    .main .post_like .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like .post_save{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like .post_save i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 121vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    .main .post_pic_nav2{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 125vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav2 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav2 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav2 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav2 .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav2 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav2 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav2 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body2{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 131vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body2 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like2{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 186vh;
+    }
+    .main .post_like2 .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like2 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like2 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like2 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like2 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe2{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 190vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe2 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe2 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe2 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe2 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe2 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe2 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe2 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav3{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 194vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav3 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav3 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav3 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav3 .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav3 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav3 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav3 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body3{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 200vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body3 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like3{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 255vh;
+    }
+    .main .post_like3 .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like3 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like3 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like3 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like3 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe3{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 258vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe3 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe3 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe3 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe3 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe3 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe3 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe3 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav4{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 262vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav4 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav4 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav4 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav4 .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav4 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav4 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav4 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body4{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 268vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body4 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like4{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 323vh;
+    }
+    .main .post_like4 .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like4 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like4 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like4 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like4 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe4{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 326vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe4 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe4 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe4 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe4 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe4 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe4 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe4 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav5{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 330vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav5 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav5 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav5 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav5 .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav5 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav5 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav5 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body5{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 336vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body5 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like5{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 391vh;
+    }
+    .main .post_like5 .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like5 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like5 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like5 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like5 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe5{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 394vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe5 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe5 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe5 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe5 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe5 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe5 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe5 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav6{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 398vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav6 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav6 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav6 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav6 .logo_post_name h2{
+       color: white;
+       font-size: 20px;
+       margin-right: 40px;
+       font-weight: 300;
+    }
+    .main .post_pic_nav6 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav6 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav6 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body6{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 404vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body6 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like6{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 459vh;
+    }
+    .main .post_like6 .post_like_logo{
+       height: 100%;
+       width: 40%;
+       /* background-color: yellow; */
+       justify-content: space-evenly;
+       display: flex;
+       align-items: center;
+    }
+    .main .post_like6 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like6 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like6 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like6 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe6{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 462vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe6 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe6 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe6 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe6 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe6 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe6 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe6 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav7{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 466vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav7 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav7 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav7 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav7 .logo_post_name h2{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        font-weight: 300;
+    }
+    .main .post_pic_nav7 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav7 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav7 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body7{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 472vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body7 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like7{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 527vh;
+    }
+    .main .post_like7 .post_like_logo{
+        height: 100%;
+        width: 40%;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .main .post_like7 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like7 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like7 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like7 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe7{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 530vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe7 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe7 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe7 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe7 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe7 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe7 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe7 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav8{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 534vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav8 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav8 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav8 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav8 .logo_post_name h2{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        font-weight: 300;
+    }
+    .main .post_pic_nav8 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav8 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav8 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body8{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 540vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body8 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like8{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 595vh;
+    }
+    .main .post_like8 .post_like_logo{
+        height: 100%;
+        width: 40%;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .main .post_like8 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like8 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like8 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like8 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe8{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 598vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe8 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe8 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe8 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe8 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe8 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe8 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe8 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav9{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 602vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav9 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav9 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav9 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav9 .logo_post_name h2{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        font-weight: 300;
+    }
+    .main .post_pic_nav9 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav9 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav9 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body9{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 608vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body9 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like9{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 663vh;
+    }
+    .main .post_like9 .post_like_logo{
+        height: 100%;
+        width: 40%;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .main .post_like9 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like9 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like9 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like9 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe9{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 666vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe9 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe9 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe9 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe9 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe9 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe9 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe9 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav10{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top:670vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav10 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav10 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav10 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav10 .logo_post_name h2{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        font-weight: 300;
+    }
+    .main .post_pic_nav10 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav10 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav10 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body10{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 676vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body10 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like10{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 731vh;
+    }
+    .main .post_like10 .post_like_logo{
+        height: 100%;
+        width: 40%;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .main .post_like10 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like10 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like10 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like10 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe10{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 734vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe10 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe10 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe10 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe10 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe10 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe10 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe10 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    .main .post_pic_nav11{
+        height: 6vh;
+        width: 100%;
+        /* background-color: green; */
+        margin-top: 738vh;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .main .post_pic_nav11 .post_logo{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .main .post_pic_nav11 .post_logo .post_dp{
+        height: 80%;
+        width: 15%;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 10px;
+    }
+    .main .post_pic_nav11 .post_logo .post_dp img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_pic_nav11 .logo_post_name h2{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        font-weight: 300;
+    }
+    .main .post_pic_nav11 .logo_post_name p{
+        font-size: 15px;
+        color: white;
+    }
+    .main .post_pic_nav11 .three_dot{
+        height: 100%;
+        width: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .main .post_pic_nav11 .three_dot i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_body11{
+        height: 55vh;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-top: 744vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .main .post_body11 img{
+        height: 100%;
+        width: 100%;
+    }
+    .main .post_like11{
+        position: absolute;
+        height: 4vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 799vh;
+    }
+    .main .post_like11 .post_like_logo{
+        height: 100%;
+        width: 40%;
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .main .post_like11 .post_like_logo i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_like11 .post_like_logo .red{
+        color: red;
+    }
+    .main .post_like11 .post_save2{
+        height: 100%;
+        width: 10%;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+    }
+    .main .post_like11 .post_save2 i{
+        font-size: 20px;
+        color: white;
+    }
+    .main .post_div_describe11{
+        height: 4vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 802vh;
+        position: absolute;
+        align-items: center;
+        display: flex;
+    }
+    .main .post_div_describe11 .like_circle1{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: yellow;
+    }
+    .main .post_div_describe11 .like_circle2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -7px;
+        background-color: yellow;
+    }
+    .main .post_div_describe11 .like_circle3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: -6px;
+        background-color: yellow;
+    }
+    .main .post_div_describe11 .like_circle1 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe11 .like_circle2 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe11 .like_circle3 img{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .main .post_div_describe11 h4{
+        margin-left: 20px;
+        color: white;
+        font-weight: 300;
+    }
+    /*  */
+    }
